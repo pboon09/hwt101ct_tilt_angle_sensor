@@ -28,7 +28,7 @@ ament_python_install_package(${PROJECT_NAME})
 # Install Python executables
 install(PROGRAMS
   scripts/dummy_script.py
-  scripts/hwt101ct_imu_node.py
+  scripts/hwt101ct_yaw_publisher.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
